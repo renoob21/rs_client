@@ -6,7 +6,7 @@ fn main() -> Result<()> {
     let port = &args[2];
 
     let conn = TcpStream::connect(format!("{}:{}", addr, port))?;
-    println!("Connected to {}:{}", addr, port);
+    println!("Connected to {}:{}, waiting for command", addr, port);
 
     let reader = BufReader::new(&conn);
 
