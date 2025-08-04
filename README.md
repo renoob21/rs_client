@@ -1,3 +1,3 @@
 # rs_client
 
-A reverse shell server written in Rust
+A reverse shell client written in Rust
